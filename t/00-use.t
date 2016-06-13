@@ -1,6 +1,4 @@
-#!perl6
-
 use lib 'lib';
 use Test;
-use-ok 'Acme::Anguish';
+use-ok 'App::FinanceTracker';
 done-testing;

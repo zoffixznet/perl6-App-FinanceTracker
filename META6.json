@@ -1,13 +1,13 @@
 {
     "perl"         : "6.c",
-    "name"         : "Acme::Anguish",
+    "name"         : "App::FinanceTracker",
     "version"      : "1.001001",
-    "description"  : "Use Anguish programming language in your Perl 6 programs",
-    "depends"      : [ "Term::termios" ],
+    "description"  : "Track your finances",
+    "depends"      : [ "" ],
     "test-depends" : [ "Test", "Test::Output" ],
     "provides"     : {
-        "Acme::Anguish" : "lib/Acme/Anguish.pm6"
+        "App::FinanceTracker" : "lib/App/FinanceTracker.pm6"
     },
     "authors"      : [ "Zoffix Znet" ],
-    "support"      : {"source"   : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"}
+    "support"      : {"source"   : "git://github.com/zoffixznet/perl6-App-FinanceTracker.git"}
 }
