@@ -6,8 +6,8 @@ App::FinanceTracker - track your finances
 
 # DISCLAIMER
 
-⚠️⚠️⚠️ This software is provided as-is without warranties of any kind. Use at
-your own risk. Any plugins not included in this distribution are developed by
+⚠️⚠️⚠️ This software is provided as-is, without warranties of any kind. Use it
+at your own risk. Any plugins not included in this distribution are developed by
 third parties and are not directly endorsed by the authors of this software.
 Please evaluate the trustworthiness of those plugins before using them. ⚠️⚠️⚠️
 
