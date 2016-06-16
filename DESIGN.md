@@ -40,9 +40,12 @@ accessing some resource, like a banking website).
 ## Transactions
 
 Each transaction must have these fields. If a field is not applicable or not
-available for particular a transaction resource, it's value must be `N/A`
+available for particular a transaction resource, it's value must be `N/A`. The
+`amount` field is mandatory and the `date` will default to today's date.
 
 * **amount**: positive or negative monetary amount of arbitrary precision
+* **date**: the UTC date and time of the transaction in the format returned
+by the `Date.today` (e.g. `2016-06-14`)
 * **currency**: the monetary currency of the `amount`
 * **description**: short description of the transaction
 * **source-name**: the name of the *source* of this transaction, e.g.
@@ -56,8 +59,6 @@ the `source-name` will be *Awesome Bank* or
 Values can be arbitrary, but if the source type fits any of the following,
 please use the same exact spelling, spacing, and casing:
 `credit card`, `credit line`, `debit card`, `cash`
-* **date**: the UTC date and time of the transaction in the format returned
-by the `DateTime.now.utc` (e.g. `2016-06-13T12:58:05.022193Z`)
 * **score**: the score of the transaction from 0 to 5, indicating how much
 the user "enjoyed" the transaction, with 5 indicating the most enjoyment
 (loved it) and 0 the least (hated it). Many sources will likely have to
